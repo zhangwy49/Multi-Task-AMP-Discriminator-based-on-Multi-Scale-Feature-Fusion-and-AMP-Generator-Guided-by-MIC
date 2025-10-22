@@ -79,7 +79,7 @@ def process_reg_file(input_file, data_file, output_file):
 
 if __name__ == "__main__":
     #loading model
-    ems2_model_path = './esm2_model'
+    ems2_model_path = '../../AMP-Forge/esm2_model'
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     tokenizer = AutoTokenizer.from_pretrained(ems2_model_path)
     model = EsmModel.from_pretrained(ems2_model_path).to(device)
