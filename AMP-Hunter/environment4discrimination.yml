@@ -185,4 +185,4 @@ dependencies:
       - wcwidth==0.2.5
       - websockets==10.3
       - yacs==0.1.8
-prefix: /home//software/anaconda3/envs/AMP-Hunter
+prefix: /home/software/anaconda3/envs/AMP-Hunter
