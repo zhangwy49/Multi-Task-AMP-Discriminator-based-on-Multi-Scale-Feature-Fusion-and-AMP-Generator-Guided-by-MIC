@@ -33,7 +33,7 @@ class AMP_Loader(InMemoryDataset):
 
     def process(self):
         node_features_path = '../AMP_dataset/processed/node_feature_label_class.txt'
-        edge_features_path = '../AMP_dataset/processed/out1_graph_edges.txt'
+        edge_features_path = '../AMP_dataset/processed/graph_edges.txt'
 
         
         with open(node_features_path, 'r') as f:
