@@ -31,7 +31,15 @@ Please download the required files.
 and place them in the [./AMP-Forge/esm2_model](./AMP-Forge/esm2_model) path.  
 
 # Preprocess Data for AMP-Hunter  
-### obtain the sequence-level features extracted by esm2  
-In the [./AMP-Forge/esm2_model](./AMP-Forge/esm2_model) path
+### Obtain the sequence-level features extracted by esm2  
+In the [./AMP-Hunter/graph_process](./AMP-Hunter/graph_process) path
+```
+python get_feature_pretrain.py
+```
+### Obtain the similarity matrix to derive the edge information of the graph  
+```
+python calculate_similarity_matrix.py
+```
+
 
 
